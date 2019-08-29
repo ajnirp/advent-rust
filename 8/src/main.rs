@@ -35,7 +35,7 @@ fn count_difference_2(s: &str) -> u32 {
 }
 
 fn main() -> Result<()> {
-    let file = File::open("8.txt")?;
+    let file = File::open("src/8.txt")?;
     let mut total_difference_1 = 0;
     let mut total_difference_2 = 0;
     for line in BufReader::new(file).lines() {
